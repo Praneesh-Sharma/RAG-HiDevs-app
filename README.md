@@ -3,7 +3,7 @@ A Streamlit-powered application that allows users to upload a PDF, extract embed
 
 ---
 
-## ** Features **  
+## Features 
 Upload a **PDF** and extract text chunks  
 Store document embeddings in **ChromaDB**  
 Use **LLM (via Groq API)** for answering queries  
@@ -12,27 +12,27 @@ Built with **LangChain**, **ChromaDB**, and **Streamlit**
 
 ---
 
-## ** Installation & Setup **  
+## Installation & Setup 
 
-### ** Clone the Repository**  
+### Clone the Repository 
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/RAG-Document-Retrieval.git
 cd RAG-Document-Retrieval
 ```
 
-### ** Create a Virtual Environment **
+### Create a Virtual Environment
 ```bash
 python -m venv venv
 source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-### ** Install Dependencies **
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## ** Setting Up API Keys (.env File) ** 
+## Setting Up API Keys (.env File)
 
 To run the app, you need to set up your Groq API key. Create a .env file in the root directory:
 ```bash
@@ -46,13 +46,13 @@ GROQ_API_KEY=your_api_key_here
 ```
 Replace your_api_key_here with your actual Groq API key.
 
-### ** Running the Application **
+### Running the Application
 ```bash
 streamlit run app.py
 ```
 This will launch the web app in your browser.
 
-### ** Project Structure **
+### Project Structure
 ```bash
 📁 RAG-Document-Retrieval
 │── 📄 app.py               # Streamlit UI
