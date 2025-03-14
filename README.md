@@ -3,12 +3,12 @@ A Streamlit-powered application that allows users to upload a PDF, extract embed
 
 ---
 
-## **📌 Features**  
-✅ Upload a **PDF** and extract text chunks  
-✅ Store document embeddings in **ChromaDB**  
-✅ Use **LLM (via Groq API)** for answering queries  
-✅ Retrieve relevant document sections along with responses  
-✅ Built with **LangChain**, **ChromaDB**, and **Streamlit**  
+## ** Features **  
+Upload a **PDF** and extract text chunks  
+Store document embeddings in **ChromaDB**  
+Use **LLM (via Groq API)** for answering queries  
+Retrieve relevant document sections along with responses  
+Built with **LangChain**, **ChromaDB**, and **Streamlit**  
 
 ---
 
