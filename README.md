@@ -2,11 +2,10 @@
 A Streamlit-powered application that allows users to upload a PDF, extract embeddings, and query the document using an LLM for retrieval-augmented generation (RAG).  
 
 ## Features 
-Upload a **PDF** and extract text chunks  
-Store document embeddings in **ChromaDB**  
-Use **LLM (via Groq API)** for answering queries  
-Retrieve relevant document sections along with responses  
-Built with **LangChain**, **ChromaDB**, and **Streamlit**  
+- Upload a **PDF** and extract text chunks  
+- Store document embeddings in **ChromaDB**  
+- Use **LLM (via Groq API)** for answering queries  
+- Retrieve relevant document sections along with responses
 
 ## Installation & Setup 
 
