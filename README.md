@@ -41,7 +41,7 @@ GROQ_API_KEY=your_api_key_here
 ```
 Replace your_api_key_here with your actual Groq API key.
 
-### Running the Application
+## Running the Application
 ```bash
 streamlit run app.py
 ```
